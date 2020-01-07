@@ -2,6 +2,7 @@ const express = require("express");
 const fileUpload = require("express-fileupload");
 const app = express();
 const uniqid = require("uniqid");
+const path = require("path");
 const PORT = process.env.PORT || 5000;
 
 //Middleware
